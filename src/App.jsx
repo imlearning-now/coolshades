@@ -20,6 +20,7 @@ const Nav = () => (
         <a href="#pilot" className="hover:text-climateGreen">Pilot</a>
         <a href="#impact" className="hover:text-climateGreen">Impact</a>
         <a href="#global" className="hover:text-climateGreen">Global</a>
+        <a href="#whyus" className="hover:text-climateGreen">Why Us</a>
         <a href="#contact" className="hover:text-climateGreen">Contact</a>
       </nav>
       <a href="#contact" className="md:hidden btn-primary text-sm">Join the Pilot</a>
@@ -28,7 +29,7 @@ const Nav = () => (
 )
 
 const Hero = () => (
-  <section id="home" className="section relative overflow-hidden">
+  <section id="home" className="section relative overflow-hidden scroll-mt-16">
     <div className="absolute inset-0 -z-10 bg-gradient-to-b from-climateBlue/10 via-transparent to-climateGreen/10" />
     <div className="container grid md:grid-cols-2 gap-10 items-center">
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
@@ -59,7 +60,7 @@ const Hero = () => (
 )
 
 const Problem = () => (
-  <section id="problem" className="section">
+  <section id="problem" className="section scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>The Problem</motion.h2>
       <div className="grid md:grid-cols-3 gap-6">
@@ -79,7 +80,7 @@ const Problem = () => (
 )
 
 const Solution = () => (
-  <section id="solution" className="section bg-gray-50">
+  <section id="solution" className="section bg-gray-50 scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Our Solution</motion.h2>
       <div className="grid md:grid-cols-3 gap-6">
@@ -99,7 +100,7 @@ const Solution = () => (
 )
 
 const Pilot = () => (
-  <section id="pilot" className="section">
+  <section id="pilot" className="section scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Pilot in Vietnam</motion.h2>
       <motion.p className="section-subtitle" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
@@ -123,7 +124,7 @@ const Pilot = () => (
 )
 
 const Impact = () => (
-  <section id="impact" className="section bg-gray-50">
+  <section id="impact" className="section bg-gray-50 scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Jobs & Economic Impact</motion.h2>
       <div className="grid md:grid-cols-3 gap-6">
@@ -142,7 +143,7 @@ const Impact = () => (
 )
 
 const Global = () => (
-  <section id="global" className="section">
+  <section id="global" className="section scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Global Potential</motion.h2>
       <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -163,7 +164,7 @@ const Global = () => (
 )
 
 const WhyUs = () => (
-  <section id="whyus" className="section bg-gray-50">
+  <section id="whyus" className="section bg-gray-50 scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Why Us</motion.h2>
       <div className="grid md:grid-cols-3 gap-6">
@@ -183,7 +184,7 @@ const WhyUs = () => (
 )
 
 const Contact = () => (
-  <section id="contact" className="section">
+  <section id="contact" className="section scroll-mt-16">
     <div className="container">
       <motion.h2 className="section-title" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>Get in Touch</motion.h2>
       <motion.p className="section-subtitle" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
